@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReversiDLL", "ReversiDLL\ReversiDLL.vcxproj", "{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}"
+	ProjectSection(ProjectDependencies) = postProject
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8} = {890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversi", "Reversi\Reversi.csproj", "{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86} = {1F777782-57F7-45C0-8C45-9F9FE3FFAE86}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReversiGameEngine", "ReversiGameEngine\ReversiGameEngine.vcxproj", "{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Debug|Win32.Build.0 = Debug|Win32
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Debug|x64.ActiveCfg = Debug|x64
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Debug|x64.Build.0 = Debug|x64
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Release|Win32.ActiveCfg = Release|Win32
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Release|Win32.Build.0 = Release|Win32
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Release|x64.ActiveCfg = Release|x64
+		{1F777782-57F7-45C0-8C45-9F9FE3FFAE86}.Release|x64.Build.0 = Release|x64
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Debug|Win32.Build.0 = Debug|Win32
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Debug|x64.ActiveCfg = Debug|x64
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Debug|x64.Build.0 = Debug|x64
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Release|Win32.ActiveCfg = Release|Win32
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Release|Win32.Build.0 = Release|Win32
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Release|x64.ActiveCfg = Release|x64
+		{A573F6D0-A7B1-44BD-B89A-2F46B2A4DB42}.Release|x64.Build.0 = Release|x64
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Debug|Win32.Build.0 = Debug|Win32
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Debug|x64.ActiveCfg = Debug|x64
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Debug|x64.Build.0 = Debug|x64
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Release|Win32.ActiveCfg = Release|Win32
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Release|Win32.Build.0 = Release|Win32
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Release|x64.ActiveCfg = Release|x64
+		{890AFAEC-29E9-4778-8CFD-40FD0A2B0CC8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7FB80E4-694F-4AD9-923A-55B60780E3CC}
+	EndGlobalSection
+EndGlobal
