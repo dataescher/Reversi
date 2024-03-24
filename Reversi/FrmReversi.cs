@@ -236,7 +236,9 @@ namespace Reversi {
 			}
 		}
 
-		private void BtnExit_Click(Object sender, EventArgs e) => Application.Exit();
+		private void BtnExit_Click(Object sender, EventArgs e) {
+			Application.Exit();
+		}
 
 		private void BtnNewGame_Click(Object sender, EventArgs e) {
 			Reversi.GameEngine.NewGame();
@@ -244,12 +246,20 @@ namespace Reversi {
 			ComputerPlay();
 		}
 
-		private void LblWinner_Click(Object sender, EventArgs e) => LblWinner.Visible = false;
+		private void LblWinner_Click(Object sender, EventArgs e) {
+			LblWinner.Visible = false;
+		}
 
-		private void ChkWhite_CheckedChanged(Object sender, EventArgs e) => ComputerPlay();
+		private void ChkWhite_CheckedChanged(Object sender, EventArgs e) {
+			ComputerPlay();
+		}
 
-		private void ChkBlack_CheckedChanged(Object sender, EventArgs e) => ComputerPlay();
+		private void ChkBlack_CheckedChanged(Object sender, EventArgs e) {
+			ComputerPlay();
+		}
 
-		private void ChkNeither_CheckedChanged(Object sender, EventArgs e) => ComputerPlay();
+		private void ChkNeither_CheckedChanged(Object sender, EventArgs e) {
+			ComputerPlay();
+		}
 	}
 }
