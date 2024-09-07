@@ -179,7 +179,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReversiGameEngine\ReversiGameEngine.vcxproj">
-      <Project>{67c360fc-b15c-4d43-8a28-9c8b8e3eb203}</Project>
+      <Project>{890afaec-29e9-4778-8cfd-40fd0a2b0cc8}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
