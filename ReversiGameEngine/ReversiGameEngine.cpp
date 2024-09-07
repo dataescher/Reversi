@@ -22,15 +22,15 @@ char ReversiGameEngine::tileToChar(ReversiGameEngine::boardSquare thisTile) {
 	char thisChar;
 
 	switch (thisTile) {
-		case boardSquare::blankSquare:
-			thisChar = '.';
-			break;
-		case boardSquare::blackSquare:
-			thisChar = 'X';
-			break;
-		case boardSquare::whiteSquare:
-			thisChar = 'O';
-			break;
+	case boardSquare::blankSquare:
+		thisChar = '.';
+		break;
+	case boardSquare::blackSquare:
+		thisChar = 'X';
+		break;
+	case boardSquare::whiteSquare:
+		thisChar = 'O';
+		break;
 	}
 
 	return thisChar;

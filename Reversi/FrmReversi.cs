@@ -51,7 +51,7 @@ namespace Reversi {
 
 			for (thisLocation.Y = 0; thisLocation.Y < 8; thisLocation.Y++) {
 				for (thisLocation.X = 0; thisLocation.X < 8; thisLocation.X++) {
-					PlaceChip(Reversi.GameEngine.GetSquare(thisLocation.X, thisLocation.Y), thisLocation);
+					PlaceChip(GameEngine.GetSquare(thisLocation.X, thisLocation.Y), thisLocation);
 				}
 			}
 
@@ -134,7 +134,7 @@ namespace Reversi {
 		}
 
 		private void FrmReversi_Load(Object sender, EventArgs e) {
-			Reversi.GameEngine.NewGame();
+			GameEngine.NewGame();
 
 			System.Diagnostics.Debug.Write(GameEngine.ToString());
 
@@ -241,7 +241,7 @@ namespace Reversi {
 		}
 
 		private void BtnNewGame_Click(Object sender, EventArgs e) {
-			Reversi.GameEngine.NewGame();
+			GameEngine.NewGame();
 			DisplayBoard();
 			ComputerPlay();
 		}
