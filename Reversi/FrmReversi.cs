@@ -22,10 +22,9 @@ namespace Reversi {
 		private void CreateBoard() {
 			DeleteBoard();
 
+			Random rnd = new();
 			for (Int32 y = 0; y < 8; y++) {
 				for (Int32 x = 0; x < 8; x++) {
-					Random rnd = new();
-
 					boardData[x, y] = GameEngine.BoardSquareTypes.Blank;
 					tiles[x, y] = new BlendPictureBox {
 						RotationAngle = rnd.Next(0, 360),
